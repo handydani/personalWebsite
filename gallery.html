@@ -1,0 +1,202 @@
+<style type="text/css">
+
+.main{
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: 'Montserrat', sans-serif;
+		border: 7px solid #000;
+	}
+
+.main h1{
+	text-align: center;
+	font-family: 'Yellowtail', cursive;
+	font-size: 4em;
+}
+
+.nav a{
+
+	text-decoration: none;
+	text-align: center;
+	font-size: 1em;
+	color: #999;
+	padding: 10px;
+}
+.nav{
+	margin-right: auto; 
+	margin-left: auto;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.nav a: hover{
+	color: black;
+	text-decoration: underline;
+}
+.footer{
+	border-top: 7px solid #000;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.content p{
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.content h2{
+	text-align: center;
+	font-size: 1em;
+}
+img{
+	display: block;
+	margin: auto;
+	width: 20%;
+}
+a {
+	color: #999;
+	text_decoration: none;
+	font-size: 40px;
+}
+.footer a:hover{
+	opacity: 1;
+	color: #333;
+}
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Yellowtail" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"></link>
+</head>
+
+
+<body class = "main">
+	
+
+	<div class = "nav">
+		<h1>
+			Daniela Isabel Travieso
+		</h1>
+
+		<a href = "./index.html">HOME</a>
+		<a href = "./about.html">ABOUT</a>
+		<a href = "./resume.html">RESUME</a>
+		<a href = "./gallery.html">GALLERY</a>
+
+	</div>
+
+
+	<div class = "content">
+	<!-- source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive -->
+				
+				<h2>Things I've done, seen, liked, and more!</h2>
+
+		<div class="responsive">
+		  <div class="img">
+		    <a target="_blank" href="img_fjords.jpg">
+		      <img src="videoGame.jpg" alt="video game" width="300" height="200">
+		    </a>
+		    <div class="desc">Add a description of the image here</div>
+		  </div>
+		</div>
+
+
+		<div class="responsive">
+		  <div class="img">
+		    <a target="_blank" href="img_forest.jpg">
+		      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+		    </a>
+		    <div class="desc">Add a description of the image here</div>
+		  </div>
+		</div>
+
+		<div class="responsive">
+		  <div class="img">
+		    <a target="_blank" href="img_lights.jpg">
+		      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+		    </a>
+		    <div class="desc">Add a description of the image here</div>
+		  </div>
+		</div>
+
+		<div class="responsive">
+		  <div class="img">
+		    <a target="_blank" href="img_mountains.jpg">
+		      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+		    </a>
+		    <div class="desc">Add a description of the image here</div>
+		  </div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<div style="padding:6px;">
+		  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+		  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+		</div>
+
+	</div>
+
+
+	<div class = "footer">
+
+		<a href = "http://www.Github.com/handydani"><i class = " fa fa-github-square"></i></a>
+
+
+	</div>
+</body>
